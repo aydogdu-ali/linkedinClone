@@ -4,8 +4,6 @@ nav {
   z-index: 1;
 }
 
-
-
 .navbarbg {
   height: 55px;
   background-color: white;
@@ -16,16 +14,20 @@ input.searche {
   max-width: 500px;
   background-color: #eef3f8;
   border: 0;
-  margin-left: 2rem;
+  margin-left: 3rem;
 }
 
 input.searche::placeholder {
-  font-size: 14px;
+  font-size: 16px;
   color: gray;
   background-image: url(/img/search-solid.svg);
   background-repeat: no-repeat;
   background-size: 7%;
-  padding-left: 25px;
+  padding-left: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
 }
 
 .body {
@@ -151,8 +153,9 @@ button.ref:hover {
   list-style-type: none;
 }
 
-.sabit {
+.container {
   position: sticky;
+  height: 566px;
   overflow: visible;
   top: 4rem;
 }
